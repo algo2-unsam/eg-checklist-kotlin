@@ -96,3 +96,4 @@ jobs:
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           slug: ${{ github.repository }}
+          files: build/reports/jacoco/test/jacocoTestReport.xml
